@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#">Edit Tasks</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form class="d-flex justify-content-center" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
@@ -36,11 +36,13 @@
         </div>
       </nav>
       <main>
-        <div class="custom-container">
+        <div class="custom-container d-flex justify-content-center align-items-center ">
             <form action="">
-                <h1 id="title">Add new task</h1>
-                <input type="text" placeholder="Add New Task..." class="col-xs-6">
-                <button class='btn btn-secondary col-xs-6' id="newTask">New Task</button>
+                <h1 class='d-flex justify-content-center' id="title">Add new task</h1>
+                <div class="container d-flex flex-column justify-content-center align-items-center">
+                <input type="text" placeholder="Add New Task..." id="userInput">
+                <button class='btn btn-secondary' id="newTask">New Task</button>
+            </div>
             </form>
         </div>
       </main>
