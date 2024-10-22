@@ -16,3 +16,14 @@ main {
     background-color: rgba(108, 117, 125,0.1);
     border-radius: 33px;
 }
+#userInput { 
+    height: 40px;
+    margin: 25px auto;
+}
+.btn { 
+    margin-bottom: 5px;
+}
+#title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
